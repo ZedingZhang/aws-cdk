@@ -1,0 +1,219 @@
+{
+  "/PolicyIntegTestStack/SharedGateway": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "This gateway has no inbound authorization. The endpoint will be publicly accessible without credentials. Ensure you have implemented compensating security controls such as Gateway Interceptors. See https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-inbound-auth.html#gateway-inbound-auth-none [ack: aws-cdk-lib.aws-bedrockagentcore:noAuthGateway]",
+      "trace": [
+        "Annotations.addMessage (/workplace/alvazjor/aws-cdk-repo/aws-cdk/packages/aws-cdk-lib/core/lib/annotations.js:244:29)",
+        "Annotations.addWarningV2 (/workplace/alvazjor/aws-cdk-repo/aws-cdk/packages/aws-cdk-lib/core/lib/annotations.js:113:18)",
+        "new Gateway (/workplace/alvazjor/aws-cdk-repo/aws-cdk/packages/aws-cdk-lib/aws-bedrockagentcore/lib/gateway/gateway.js:376:47)",
+        "new Gateway (/workplace/alvazjor/aws-cdk-repo/aws-cdk/packages/aws-cdk-lib/core/lib/prop-injectable.js:32:13)",
+        "Object.<anonymous> (/workplace/alvazjor/aws-cdk-repo/aws-cdk/packages/@aws-cdk-testing/framework-integ/test/aws-bedrockagentcore/test/agentcore/policy/integ.policy.js:67:23)",
+        "Module._compile (node:internal/modules/cjs/loader:1705:14)",
+        "Module._extensions..js (node:internal/modules/cjs/loader:1838:10)",
+        "Module.load (node:internal/modules/cjs/loader:1441:32)",
+        "Module._load (node:internal/modules/cjs/loader:1263:12)",
+        "TracingChannel.traceSync (node:diagnostics_channel:328:14)",
+        "wrapModuleLoad (node:internal/modules/cjs/loader:237:24)",
+        "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)",
+        "node:internal/main/run_main_module:36:49"
+      ]
+    }
+  ],
+  "/PolicyIntegTestStack/BasicPolicyEngine": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/RawCedarPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/PolicyEngineKey": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "description": "*",
+        "enableKeyRotation": true,
+        "removalPolicy": "destroy"
+      }
+    }
+  ],
+  "/PolicyIntegTestStack/EncryptedPolicyEngine": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/BuilderSpecificPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/BuilderIamPrincipalPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/ForbidPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/IgnoreFindingsPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/BuilderRealisticUserPolicy": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/AutoNamedEngine": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": "*"
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/PolicyIntegTestStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/PolicyIntegTestStack/SharedGateway/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "description": "*"
+      }
+    }
+  ],
+  "/PolicyIntegTestStack/SharedGateway/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SharedGatewayA02A06B9"
+    }
+  ],
+  "/PolicyIntegTestStack/BasicPolicyEngine/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BasicPolicyEngine05C42F5C"
+    }
+  ],
+  "/PolicyIntegTestStack/RawCedarPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RawCedarPolicy334AC182"
+    }
+  ],
+  "/PolicyIntegTestStack/PolicyEngineKey/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PolicyEngineKeyF386A3BD"
+    }
+  ],
+  "/PolicyIntegTestStack/EncryptedPolicyEngine/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EncryptedPolicyEngineBC14AF35"
+    }
+  ],
+  "/PolicyIntegTestStack/BuilderSpecificPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BuilderSpecificPolicyCDF7CA29"
+    }
+  ],
+  "/PolicyIntegTestStack/BuilderIamPrincipalPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BuilderIamPrincipalPolicyF07300E4"
+    }
+  ],
+  "/PolicyIntegTestStack/ForbidPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ForbidPolicyC7EF841B"
+    }
+  ],
+  "/PolicyIntegTestStack/IgnoreFindingsPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "IgnoreFindingsPolicyBF4464E3"
+    }
+  ],
+  "/PolicyIntegTestStack/BuilderRealisticUserPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BuilderRealisticUserPolicyC6900DE6"
+    }
+  ],
+  "/PolicyIntegTestStack/AutoNamedEngine/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AutoNamedEngine3770C869"
+    }
+  ],
+  "/PolicyIntegTestStack/AutoNamedEngine/AutoPolicy1": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/AutoNamedEngine/AutoPolicy2": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/PolicyIntegTestStack/SharedGateway/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SharedGatewayServiceRole279B0EC3"
+    }
+  ],
+  "/PolicyIntegTestStack/AutoNamedEngine/AutoPolicy1/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AutoNamedEngineAutoPolicy1FA031607"
+    }
+  ],
+  "/PolicyIntegTestStack/AutoNamedEngine/AutoPolicy2/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AutoNamedEngineAutoPolicy23A360CE1"
+    }
+  ]
+}
